@@ -1,7 +1,8 @@
 {
   "name": "hooks-ui",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
   "author": "yangq <yangq0979@gmail.com>",
   "license": "MIT",
   "scripts": {
