@@ -1,8 +1,12 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import Button from './button';
+import Icon from './icon';
 
 ReactDOM.render(
-    <Button/>,
-    document.getElementById('root')
+  <>
+    <Icon name='github'/>
+    <Icon name='twitter'/>
+    <Icon name='youtube'/>
+  </>,
+  document.getElementById('root')
 );
